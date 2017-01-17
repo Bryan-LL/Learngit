@@ -2,3 +2,4 @@ Git is great!
 123
 321
 3
+test index
