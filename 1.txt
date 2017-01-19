@@ -1,9 +1,0 @@
-Git is great!
-123
-321
-3
-test index
-new branch
-3333
-feature branch
-branch3
