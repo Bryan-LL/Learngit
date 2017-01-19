@@ -1,6 +1,7 @@
 # fullScreen
 This is a plugin for fullScreen, supports Chrome, Firefox, and IE11+;
-How to use?
+
+# How to use?
 
 $("#dom").fullScreen();it has three params, 			
             'background'      : '#000',
