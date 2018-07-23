@@ -2,27 +2,31 @@
 This is a plugin for fullScreen, supports Chrome, Firefox, and IE11+;   
 
 # How to use?   
+# user callback function to add aditional actions, background to set the background color when in fullScreen,
+# user #dom.fullScreen to custom your own style in fullScreen, the added css style will disappear when exit fullScreen;
+# example:
 ```
 $("#dom").fullScreen();it has three params, 			   
-		'background'      : '#000',</br>
-		'callback'        : function(isFullScreen),</br>
-		'fullscreenClass' : 'fullScreen'</br>
-user callback function to add aditional actions, background to set the background color when in fullScreen,</br>
-user #dom.fullScreen to custom your own style in fullScreen, the added css style will disappear when exit fullScreen;</br>
-example:</br>
-		$("#mainLayout").fullScreen({</br>
-			'callback' : function(isFullScreen){</br>
-				if(!isFullScreen){</br>
-					$("#text").text("全屏");</br>
-				}else{</br>
-					$("#text").text("退出");</br>
-				}</br>
-			}</br>
-		});</br>
-in css file:</br>
-.mainLayout.fullScreen .text{</br>
-	height: 265px;</br>
-}</br>
+		'background'      : '#000',
+		'callback'        : function(isFullScreen),
+		'fullscreenClass' : 'fullScreen'
+
+		$("#mainLayout").fullScreen({
+			'callback' : function(isFullScreen){
+				if(!isFullScreen){
+					$("#text").text("全屏");
+				}else{
+					$("#text").text("退出");
+				}
+			}
+		});
+in css file:
+.mainLayout.fullScreen .text{
+	height: 265px;
+}
 ```
+
+
+
 
 #这是我自己用的全屏脚本，目前使用还可以，欢迎大家使用。
