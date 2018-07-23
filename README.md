@@ -2,7 +2,7 @@
 This is a plugin for fullScreen, supports Chrome, Firefox, and IE11+;   
 
 # How to use?   
-
+```
 $("#dom").fullScreen();it has three params, 			   
 		'background'      : '#000',</br>
 		'callback'        : function(isFullScreen),</br>
@@ -23,3 +23,6 @@ in css file:</br>
 .mainLayout.fullScreen .text{</br>
 	height: 265px;</br>
 }</br>
+```
+
+#这是我自己用的全屏脚本，目前使用还可以，欢迎大家使用。
